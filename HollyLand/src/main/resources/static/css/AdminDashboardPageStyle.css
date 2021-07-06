@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+div.con {
+}
+
+header {
+	max-height: 50px;
+}
+
+header nav div.header-right {
+	display: flex;
+	align-items: center;
+}
+
+header div#search-div {
+	margin-right: 5%;
+}
+
+header nav div#logout-div {
+	margin-right: 5%;
+}
+
+header nav div.logo_div {
+	padding-left: 50px;
+}
+
+div.inner-con {
+	margin: 100px 0 0 70px;
+	position: absolute;
+		background: linear-gradient(#fff, #f8f9fa, #ddd3cd, #7c4d2f);
+}
+div.city-div{
+	margin:10px 0;
+	display:flex;
+	flex-direction:column;
+	min-width:100px;
+}
+form.village-div{
+	margin:10px 0 10px 20px;
+	
+}
+
+.tbla {
+	margin-top:100px;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	margin-right: 20%;
+}
+.tbla td, .tbla th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+.tbla th {
+	background-color: #d3d3d3;
+}
+.tbla tr:nth-child(even) {
+	background-color: #f5f5f5;
+}
+/* form.village-div input{
+	
+} */
